@@ -1,0 +1,30 @@
+using System;
+
+namespace JSharpProgram
+{
+    class Program
+    {
+        static void Main(string[] args)
+        { 
+            Console.Title = "Game Console";
+
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.BackgroundColor = ConsoleColor.Black;
+
+            Console.WindowHeight = 40;
+            Console.WindowWidth = 40;
+            
+
+            Console.WriteLine("Hello World!");
+            
+            
+
+
+            static void WaitForAnyKeyPressed()
+            {
+            Console.WriteLine("\nPress any key to continue....");
+            Console.ReadKey();
+            }             
+        }
+    }
+}
